@@ -3,9 +3,9 @@ package assassin
 import (
 	"strings"
 
-	"github.com/NhokCrazy199/AssassinGo/logger"
 	"github.com/NhokCrazy199/AssassinGo/attacker"
 	"github.com/NhokCrazy199/AssassinGo/gatherer"
+	"github.com/NhokCrazy199/AssassinGo/logger"
 	"github.com/NhokCrazy199/AssassinGo/poc"
 	"github.com/NhokCrazy199/AssassinGo/seeker"
 	"github.com/NhokCrazy199/AssassinGo/utils"
@@ -30,7 +30,7 @@ type Assassin struct {
 	Target       string
 	FuzzableURLs []string
 	Gatherers    map[string]gatherer.Gatherer
-	Attackers    map[string]attacker.
+	Attackers    map[string]attacker.Attacker
 	Seeker       seeker.Seeker
 	PoC          map[string]poc.PoC
 }

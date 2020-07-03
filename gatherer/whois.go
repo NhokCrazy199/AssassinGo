@@ -1,8 +1,6 @@
 package gatherer
 
 import (
-	"strings"
-
 	"github.com/NhokCrazy199/AssassinGo/logger"
 	"github.com/bobesa/go-domain-util/domainutil"
 	whois "github.com/likexian/whois-go"
@@ -46,14 +44,15 @@ func (w *Whois) Run() {
 
 	w.info = map[string]interface{}{
 		"domain":          w.target,
-		"registrar_name":  result.Registrar.RegistrarName,
-		"admin_name":      result.Admin.Name,
-		"admin_email":     result.Admin.Email,
-		"admin_phone":     result.Admin.Phone,
-		"created_date":    result.Registrar.CreatedDate,
-		"expiration_date": result.Registrar.ExpirationDate,
-		"ns":              result.Registrar.NameServers,
-		"state":           strings.Split(result.Registrar.DomainStatus, " ")[0],
+		"registrar_name":  result.Registrar.ReferralURL,
+		"admin_name":      result.Administrative.Name,
+		"admin_email":     result.Administrative.Email,
+		"admin_phone":     result.Administrative.Phone,
+		"domain_name":     result.Domain.Name,
+		"created_date":    result.Domain.CreatedDate,
+		"expiration_date": result.Domain.ExpirationDate,
+		"ns":              result.Domain.NameServers,
+		"state":           result.Domain.Status[0],
 	}
 	for k, v := range w.info {
 		logger.Blue.Println(k + ": " + v.(string))
