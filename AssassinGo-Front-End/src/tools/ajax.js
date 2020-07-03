@@ -1,4 +1,4 @@
-const base = 'http://assassin-go.ink:8000';
+const base = ''; // 127.0.0.1:8000
 
 /* eslint-disable */
 export default {
