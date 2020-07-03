@@ -5,11 +5,11 @@ import (
 	"net/http"
 	"time"
 
-	"../assassin"
-	"../config"
-	"../logger"
-	"../poc"
 	"github.com/AmyangXYZ/sweetygo"
+	"github.com/NhokCrazy199/AssassinGo/assassin"
+	"github.com/NhokCrazy199/AssassinGo/config"
+	"github.com/NhokCrazy199/AssassinGo/logger"
+	"github.com/NhokCrazy199/AssassinGo/poc"
 	jwt "github.com/dgrijalva/jwt-go"
 	"github.com/gorilla/websocket"
 )

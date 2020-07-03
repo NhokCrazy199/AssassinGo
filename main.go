@@ -1,6 +1,6 @@
 package main
 
-import "./web"
+import "github.com/NhokCrazy199/AssassinGo/web"
 
 func main() {
 	web.Run()

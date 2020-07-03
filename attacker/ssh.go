@@ -5,8 +5,8 @@ import (
 	"fmt"
 	"time"
 
-	"../logger"
-	"../utils"
+	"github.com/NhokCrazy199/AssassinGo/logger"
+	"github.com/NhokCrazy199/AssassinGo/utils"
 	"github.com/gorilla/websocket"
 	"golang.org/x/crypto/ssh"
 )

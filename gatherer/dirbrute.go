@@ -8,8 +8,8 @@ import (
 
 	"github.com/AmyangXYZ/barbarian"
 
-	"../logger"
-	"../utils"
+	"github.com/NhokCrazy199/AssassinGo/logger"
+	"github.com/NhokCrazy199/AssassinGo/utils"
 	"github.com/gorilla/websocket"
 )
 

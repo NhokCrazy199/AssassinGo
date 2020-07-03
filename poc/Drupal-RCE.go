@@ -7,7 +7,7 @@ import (
 	"strings"
 	"time"
 
-	"../logger"
+	"github.com/NhokCrazy199/AssassinGo/logger"
 )
 
 // DrupalRCE - CVE-2018-7600

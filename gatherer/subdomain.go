@@ -10,8 +10,8 @@ import (
 
 	"github.com/AmyangXYZ/barbarian"
 
-	"../logger"
-	"../utils"
+	"github.com/NhokCrazy199/AssassinGo/logger"
+	"github.com/NhokCrazy199/AssassinGo/utils"
 	"github.com/bobesa/go-domain-util/domainutil"
 	"github.com/gorilla/websocket"
 )

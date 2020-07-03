@@ -6,7 +6,7 @@ import (
 	"net/http"
 	"strings"
 
-	"../logger"
+	"github.com/NhokCrazy199/AssassinGo/logger"
 )
 
 // BasicInfo gathers basic information of the target.

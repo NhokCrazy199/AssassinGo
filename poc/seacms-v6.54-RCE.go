@@ -7,7 +7,7 @@ import (
 	"strings"
 	"time"
 
-	"../logger"
+	"github.com/NhokCrazy199/AssassinGo/logger"
 )
 
 // SeaCMSv654 search.php code injection.

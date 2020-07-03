@@ -5,7 +5,7 @@ import (
 	"os"
 	"sync"
 
-	"../logger"
+	"github.com/NhokCrazy199/AssassinGo/logger"
 	"github.com/gorilla/websocket"
 )
 

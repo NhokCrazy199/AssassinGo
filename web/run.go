@@ -1,7 +1,7 @@
 package web
 
 import (
-	"../assassin"
+	"github.com/NhokCrazy199/AssassinGo/assassin"
 	"github.com/AmyangXYZ/sweetygo"
 )
 

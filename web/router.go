@@ -1,9 +1,9 @@
 package web
 
 import (
-	"../config"
 	"github.com/AmyangXYZ/sweetygo"
 	"github.com/AmyangXYZ/sweetygo/middlewares"
+	"github.com/NhokCrazy199/AssassinGo/config"
 )
 
 // SetMiddlewares sets middlewares.

@@ -3,7 +3,7 @@ package gatherer
 import (
 	"strings"
 
-	"../logger"
+	"github.com/NhokCrazy199/AssassinGo/logger"
 	"github.com/bobesa/go-domain-util/domainutil"
 	whois "github.com/likexian/whois-go"
 	"github.com/likexian/whois-parser-go"

@@ -7,7 +7,7 @@ import (
 	"strings"
 	"time"
 
-	"../logger"
+	"github.com/NhokCrazy199/AssassinGo/logger"
 )
 
 // YaHeiPHPXSS is yahei php prober v0.4.7 xss,
